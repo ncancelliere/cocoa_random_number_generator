@@ -35,18 +35,18 @@
 		E15115E4133F929900B7F29D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		E15115E5133F929900B7F29D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E15115E6133F929900B7F29D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E15115E9133F929900B7F29D /* RandomApp-Info.plist */ = {isa = PBXFileReference; path = "RandomApp-Info.plist"; sourceTree = "<group>"; };
+		E15115E9133F929900B7F29D /* RandomApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RandomApp-Info.plist"; sourceTree = "<group>"; };
 		E15115EB133F929900B7F29D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E15115ED133F929900B7F29D /* RandomApp-Prefix.pch */ = {isa = PBXFileReference; path = "RandomApp-Prefix.pch"; sourceTree = "<group>"; };
+		E15115ED133F929900B7F29D /* RandomApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomApp-Prefix.pch"; sourceTree = "<group>"; };
 		E15115EE133F929900B7F29D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E15115F1133F929900B7F29D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		E15115F3133F929900B7F29D /* RandomAppAppDelegate.h */ = {isa = PBXFileReference; path = RandomAppAppDelegate.h; sourceTree = "<group>"; };
+		E15115F3133F929900B7F29D /* RandomAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomAppAppDelegate.h; sourceTree = "<group>"; };
 		E15115F4133F929900B7F29D /* RandomAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomAppAppDelegate.m; sourceTree = "<group>"; };
 		E15115F7133F929A00B7F29D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E15115FE133F929A00B7F29D /* RandomAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1511604133F929A00B7F29D /* RandomAppTests-Info.plist */ = {isa = PBXFileReference; path = "RandomAppTests-Info.plist"; sourceTree = "<group>"; };
+		E1511604133F929A00B7F29D /* RandomAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RandomAppTests-Info.plist"; sourceTree = "<group>"; };
 		E1511606133F929A00B7F29D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E1511608133F929A00B7F29D /* RandomAppTests-Prefix.pch */ = {isa = PBXFileReference; path = "RandomAppTests-Prefix.pch"; sourceTree = "<group>"; };
+		E1511608133F929A00B7F29D /* RandomAppTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomAppTests-Prefix.pch"; sourceTree = "<group>"; };
 		E1511609133F929A00B7F29D /* RandomAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomAppTests.h; sourceTree = "<group>"; };
 		E151160B133F929A00B7F29D /* RandomAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomAppTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
