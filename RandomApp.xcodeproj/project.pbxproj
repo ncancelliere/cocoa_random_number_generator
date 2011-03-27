@@ -17,6 +17,7 @@
 		E1511607133F929A00B7F29D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1511605133F929A00B7F29D /* InfoPlist.strings */; };
 		E151160A133F929A00B7F29D /* RandomAppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = E1511609133F929A00B7F29D /* RandomAppTests.h */; };
 		E151160C133F929A00B7F29D /* RandomAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E151160B133F929A00B7F29D /* RandomAppTests.m */; };
+		E1511617133F981400B7F29D /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = E1511616133F981400B7F29D /* Foo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		E1511608133F929A00B7F29D /* RandomAppTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomAppTests-Prefix.pch"; sourceTree = "<group>"; };
 		E1511609133F929A00B7F29D /* RandomAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomAppTests.h; sourceTree = "<group>"; };
 		E151160B133F929A00B7F29D /* RandomAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomAppTests.m; sourceTree = "<group>"; };
+		E1511615133F981400B7F29D /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
+		E1511616133F981400B7F29D /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				E15115F4133F929900B7F29D /* RandomAppAppDelegate.m */,
 				E15115F6133F929A00B7F29D /* MainMenu.xib */,
 				E15115E8133F929900B7F29D /* Supporting Files */,
+				E1511615133F981400B7F29D /* Foo.h */,
+				E1511616133F981400B7F29D /* Foo.m */,
 			);
 			path = RandomApp;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 			files = (
 				E15115EF133F929900B7F29D /* main.m in Sources */,
 				E15115F5133F929900B7F29D /* RandomAppAppDelegate.m in Sources */,
+				E1511617133F981400B7F29D /* Foo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
