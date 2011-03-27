@@ -11,19 +11,31 @@
 
 @implementation Foo
 
-- (id)init
+- (void)awakeFromNib
 {
-    self = [super init];
-    if (self) {
-        // Initialization code here.
-    }
-    
-    return self;
+    NSCalendarDate *now;
+    now = [NSCalendarDate calendarDate];
+    [textField setObjectValue:now];
 }
 
-- (void)dealloc
+
+- (IBAction)generate:(id)sender
 {
-    [super dealloc];
+    // Generate a number between 1 and 100 inclusive
+    int generated;
+    generated = (random() % 100) + 1;
+    
+    NSLog(@"generated = %d", generated);
+    
+    // Ask text field to change what it's displaying
+    [textField setIntValue:generated];
+}
+
+- (IBAction)seed:(id)sender
+{
+    // Seed the random number generator with the time
+    srandom(time(NULL));
+    [textField setStringValue:@"Generator seeded."];
 }
 
 @end

@@ -6,12 +6,14 @@
 //  Copyright 2011 Ozmox.com. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <Cocoa/Cocoa.h>
 
 
 @interface Foo : NSObject {
+// attributes
     IBOutlet NSTextField *textField;
 }
+// methods
 - (IBAction)seed:(id)sender;
 - (IBAction)generate:(id)sender;
 
